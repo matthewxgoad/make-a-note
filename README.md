@@ -1,6 +1,6 @@
 # Make A Note!
 
-![image of deployed application](#)
+![image of deployed application](https://placekitten.com/g/800/600)
 
 [link to deployed application](#)
 

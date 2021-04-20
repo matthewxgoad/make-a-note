@@ -1,21 +1,24 @@
-const fs = require('fs');
+// DEPENDENCIES
 const express = require('express');
 
+// PORT CONFIGURATION
 const PORT = process.env.PORT || 1154;
 
+// EXPRESS SERVER
 const app = express();
 
-// Middleware to parse JSON payloads
-app.use(express.urlencoded( { extended: true } ) );
-app.use( express.json() );
+// Express app to parse JSON payloads
+app.use(express.urlencoded({
+    extended: true
+}));
+app.use(express.json());
 
-// API routes
+// ROUTERS
 require('./routes/apiRoutes')(app);
 app.use(express.static('public'));
-// HTML routes
 require('./routes/htmlRoutes')(app);
 
-// PORT listener
-app.listen(PORT, () > {
+// LISTENER
+app.listen(PORT, () => {
     console.log(`Listening on PORT ${PORT}`);
 })

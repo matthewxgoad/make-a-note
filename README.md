@@ -3,7 +3,7 @@
 ![image of deployed application](/public/images/screenshot-1.png)
 ![image of deployed application](/public/images/screenshot-2.png)
 
-[link to deployed application](https://matthewxgoad.github.io/make-a-note/)
+[link to deployed application](https://secret-depths-73204.herokuapp.com/)
 
 ## Description 
 

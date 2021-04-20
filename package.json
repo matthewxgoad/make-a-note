@@ -1,14 +1,29 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "![image of deployed application](https://placekitten.com/g/800/600)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewxgoad/make-a-note.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/matthewxgoad/make-a-note/issues"
+  },
+  "homepage": "https://github.com/matthewxgoad/make-a-note#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
